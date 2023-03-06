@@ -1,8 +1,6 @@
 import './App.css';
 import io from 'socket.io-client';
 import { useEffect, useState } from 'react';
-import { GrLinkedinOption } from "@react-icons/all-files/gr/GrLinkedinOption";
-import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub";
 
 const socket = io.connect('https://madmandev-api.onrender.com');
 
@@ -56,8 +54,8 @@ function App() {
         <div className='socials'>
           <div className='social-header'>Bizi izləmək üçün:</div>
           <a className="social" href="https://www.instagram.com/nijatmansimov/">Instagram</a>
-          <a className="social" href="https://www.linkedin.com/in/nijat-mansimov-9a4b59212/"><GrLinkedinOption/></a>
-          <a className="social" href="https://github.com/Nijat-Mansimov"><AiFillGithub/></a>
+          <a className="social" href="https://www.linkedin.com/in/nijat-mansimov-9a4b59212/">LinkedIn</a>
+          <a className="social" href="https://github.com/Nijat-Mansimov">Github</a>
         </div>
       </div>
       </>
