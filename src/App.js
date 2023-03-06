@@ -55,7 +55,7 @@ function App() {
         </div>
         <div className='socials'>
           <div className='social-header'>Bizi izləmək üçün:</div>
-          <a className="social" href="https://www.instagram.com/nijatmansimov/"><FaInstagram/></a>
+          <a className="social" href="https://www.instagram.com/nijatmansimov/">Instagram</a>
           <a className="social" href="https://www.linkedin.com/in/nijat-mansimov-9a4b59212/"><GrLinkedinOption/></a>
           <a className="social" href="https://github.com/Nijat-Mansimov"><AiFillGithub/></a>
         </div>
