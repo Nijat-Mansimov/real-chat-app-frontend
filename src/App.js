@@ -1,7 +1,6 @@
 import './App.css';
 import io from 'socket.io-client';
 import { useEffect, useState } from 'react';
-import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { GrLinkedinOption } from "@react-icons/all-files/gr/GrLinkedinOption";
 import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub";
 
